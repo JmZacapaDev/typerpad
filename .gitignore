@@ -1,16 +1,17 @@
 # .gitignore
 
-# Python cache
+# Python bytecode
 __pycache__/
 *.py[cod]
 
-# Virtual environments
+# Virtual environment
 .venv/
+venv/
+env/
+ENV/
 
-# Notes database / data
-notes.db
-notes.json
-
-# OS files
+# Editor and system files
+*.swp
+*.swo
 .DS_Store
 
