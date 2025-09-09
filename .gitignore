@@ -1,0 +1,16 @@
+# .gitignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+
+# Notes database / data
+notes.db
+notes.json
+
+# OS files
+.DS_Store
+

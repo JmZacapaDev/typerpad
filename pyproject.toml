@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 79
+target-version = ["py38"]
+skip-string-normalization = true
+
+[tool.isort]
+profile = "black"
+
+[project]
+name = "typerpad"
+version = "0.1.0"
+description = "A simple CLI for managing quick notes with Typer"
+authors = [{name = "JmZacapa"}]
+requires-python = ">=3.8"
+dependencies = [
+    "typer>=0.9.0",
+    "rich>=14.0",
+    "appdirs>=1.4.4"
+]
+
+[project.scripts]
+typerpad = "notes_typer.cli:app"
+

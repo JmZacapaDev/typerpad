@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: typerpad
+Version: 0.1.0
+Summary: A simple CLI for managing quick notes with Typer
+Author: JmZacapa
+Requires-Python: >=3.8
+Requires-Dist: typer>=0.9.0
+Requires-Dist: rich>=14.0
+Requires-Dist: appdirs>=1.4.4
+Dynamic: requires-python

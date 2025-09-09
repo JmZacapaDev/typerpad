@@ -1,0 +1,10 @@
+pyproject.toml
+setup.py
+notes_typer/__init__.py
+notes_typer/cli.py
+typerpad.egg-info/PKG-INFO
+typerpad.egg-info/SOURCES.txt
+typerpad.egg-info/dependency_links.txt
+typerpad.egg-info/entry_points.txt
+typerpad.egg-info/requires.txt
+typerpad.egg-info/top_level.txt
